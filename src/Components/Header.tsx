@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
   return (
     <nav className="fixed w-full bg-opacity-10 backdrop-filter backdrop-blur-sm shadow-md">
-      <ul className="flex justify-around p-4 text-gray-200 font-bold">
+      <ul className="flex justify-center py-4 text-gray-200 font-bold gap-48">
         <li>
           <a
             href="#Home"
