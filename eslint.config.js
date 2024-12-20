@@ -9,11 +9,12 @@ export default [
   {
     files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"],
     rules: {
-      "no-multiple-empty-lines": ["error", { "max": 1 }],
-    }
+      "no-multiple-empty-lines": ["error", { max: 1 }],
+      "react/react-in-jsx-scope": "off",
+    },
   },
   {
-    languageOptions: { globals: globals.browser }
+    languageOptions: { globals: globals.browser },
   },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
