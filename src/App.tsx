@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="min-h-screen w-full overflow-x-hidden bg-fixed bg-black bg-radial-at-bottom from-purple-800 to-black">
       <ParticlesComponent />
-      <div className="min-h-screen">
+      <div className="min-h-screen pb-10">
         <Header />
         <Hero />
         <Experience />
