@@ -1,9 +1,16 @@
+import "../App.css";
 import React from "react";
+import { motion } from "framer-motion";
 
 function Header() {
   return (
-    <nav className="fixed w-full bg-opacity-10 backdrop-filter backdrop-blur-sm shadow-md">
-      <ul className="flex justify-center py-4 text-gray-200 font-bold gap-48">
+    <motion.nav
+      initial={{ y: -100 }}
+      animate={{ y: 0 }}
+      transition={{ duration: 1 }}
+      className="fixed w-full bg-opacity-10 backdrop-filter backdrop-blur-md shadow-md z-50"
+    >
+      <ul className="flex justify-center py-4 text-gray-200 font-bold gap-40">
         <li>
           <a
             href="#Home"
@@ -45,7 +52,7 @@ function Header() {
           </a>
         </li>
       </ul>
-    </nav>
+    </motion.nav>
   );
 }
 
