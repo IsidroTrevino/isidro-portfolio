@@ -10,7 +10,7 @@ function Header() {
       transition={{ duration: 1 }}
       className="fixed w-full bg-opacity-10 backdrop-filter backdrop-blur-md shadow-md z-50"
     >
-      <ul className="flex justify-center py-4 text-gray-200 font-bold gap-40">
+      <ul className="flex flex-wrap justify-center py-4 px-2 text-gray-200 font-bold gap-4 md:gap-40">
         <li>
           <a
             href="#Home"

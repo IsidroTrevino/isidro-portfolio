@@ -1,5 +1,6 @@
 import { IconType } from "react-icons";
 import React from "react";
+import { motion } from "framer-motion";
 
 interface ButtonProps {
   icon?: IconType;
@@ -35,32 +36,45 @@ function Button({
 
   if (href) {
     return (
-      <a
+      <motion.a
         href={href}
         target="_blank"
         rel="noopener noreferrer"
         className={baseClasses}
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
       >
         {text}
         {Icon && <Icon size={size === "lg" ? 24 : size === "md" ? 20 : 16} />}
-      </a>
+      </motion.a>
     );
   }
 
   if (download) {
     return (
-      <a href={download} download className={baseClasses}>
+      <motion.a
+        href={download}
+        download
+        className={baseClasses}
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
+      >
         {text}
         {Icon && <Icon size={size === "lg" ? 24 : size === "md" ? 20 : 16} />}
-      </a>
+      </motion.a>
     );
   }
 
   return (
-    <button onClick={onClick} className={baseClasses}>
+    <motion.button
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 1 }}
+      className={baseClasses}
+      onClick={onClick}
+    >
       {text}
       {Icon && <Icon size={size === "lg" ? 24 : size === "md" ? 20 : 16} />}
-    </button>
+    </motion.button>
   );
 }
 
