@@ -16,7 +16,7 @@ function Experience() {
         whileInView={{ y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="w-full md:w-3/6 flex flex-col p-4 md:p-8 bg-opacity-10 backdrop-filter backdrop-blur-sm shadow-xl rounded-3xl border border-gray-500/15"
+        className="w-full md:w-[calc(33.333%+16rem+5rem)] flex flex-col p-4 md:p-8 bg-opacity-10 backdrop-filter backdrop-blur-sm shadow-xl rounded-3xl border border-gray-500/15"
       >
         <h1 className="text-3xl md:text-4xl text-white font-bold">
           Work Experience
