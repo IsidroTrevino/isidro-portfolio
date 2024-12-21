@@ -42,7 +42,7 @@ function Hero() {
       </motion.div>
       <motion.div className="w-full md:w-fit flex justify-center items-center">
         <img
-          src="../public/me.jpg"
+          src="/me.jpg"
           alt=""
           className="w-48 md:w-64 rounded-3xl relative z-10"
         />
