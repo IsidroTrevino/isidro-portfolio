@@ -9,7 +9,7 @@ function Experience() {
       viewport={{ once: true }}
       transition={{ duration: 0.8 }}
       className="pt-20 flex flex-row justify-center px-4 md:px-0 gap-20"
-      id="Work"
+      id="Experience"
     >
       <motion.div
         initial={{ y: 50 }}
@@ -64,7 +64,7 @@ function Experience() {
             </ul>
           </div>
         </div>
-        <div id="Experience">
+        <div>
           <h1 className="text-3xl md:text-4xl text-white font-bold pt-5">
             Education
           </h1>
