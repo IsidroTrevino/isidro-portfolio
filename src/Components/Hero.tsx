@@ -1,7 +1,6 @@
 import Button from "./Button";
 import { FiDownload, FiLinkedin, FiGithub, FiMail } from "react-icons/fi";
 import { motion } from "framer-motion";
-import React from "react";
 
 function Hero() {
   return (

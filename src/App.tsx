@@ -4,7 +4,6 @@ import ParticlesComponent from "./Components/ParticlesComponent";
 import Experience from "./Components/Experience";
 import Projects from "./Components/Projects";
 import Portfolio from "./projects/portfolio/Portfolio";
-import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {

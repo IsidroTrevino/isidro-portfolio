@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import ProjectCard from "./ProjectCard";
 import { ProjectType } from "../types/ProjectType";
-import React from "react";
 
 const projects: ProjectType[] = [
   {

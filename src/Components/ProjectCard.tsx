@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 import Button from "./Button";
 import { FiGithub } from "react-icons/fi";
 import { ProjectType } from "../types/ProjectType";
-import React from "react";
 
 function ProjectCard({
   title,
