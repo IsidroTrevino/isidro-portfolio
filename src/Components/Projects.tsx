@@ -21,6 +21,7 @@ const projects: ProjectType[] = [
       "Node.js",
       "Express.js",
       "Json Web Tokens",
+      "Prisma",
       "Aiven",
       "Render",
     ],

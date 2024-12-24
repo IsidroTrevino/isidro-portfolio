@@ -2,6 +2,7 @@ import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import ParticlesComponent from "./Components/ParticlesComponent";
 import Experience from "./Components/Experience";
+import Skills from "./Components/Skills";
 import WattzOn from "./projects/WattzOn/WattzOn";
 import SmartCovers from "./projects/SmartCovers/SmartCovers";
 import Awaq from "./projects/Awaq/Awaq";
@@ -22,6 +23,7 @@ function App() {
                 <Hero />
                 <Experience />
                 <Projects />
+                <Skills />
               </div>
             }
           />
