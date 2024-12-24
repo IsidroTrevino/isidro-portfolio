@@ -2,9 +2,11 @@ import Header from "./Components/Header";
 import Hero from "./Components/Hero";
 import ParticlesComponent from "./Components/ParticlesComponent";
 import Experience from "./Components/Experience";
+import WattzOn from "./projects/WattzOn/WattzOn";
+import SmartCovers from "./projects/SmartCovers/SmartCovers";
+import Awaq from "./projects/Awaq/Awaq";
 import Projects from "./Components/Projects";
-import Portfolio from "./projects/portfolio/Portfolio";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 function App() {
   return (
@@ -23,7 +25,10 @@ function App() {
               </div>
             }
           />
-          <Route path="/projects/portfolio" element={<Portfolio />} />
+          <Route path="/projects/WattzOn" element={<WattzOn />} />
+          <Route path="/projects/SmartCovers" element={<SmartCovers />} />
+          <Route path="/projects/Awaq" element={<Awaq />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </div>
     </BrowserRouter>
