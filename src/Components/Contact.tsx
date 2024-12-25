@@ -88,6 +88,10 @@ function Contact() {
             className="md:w-1/2 p-8 bg-opacity-10 backdrop-filter backdrop-blur-sm shadow-xl rounded-3xl border border-gray-500/15"
           >
             <div className="flex flex-col gap-6">
+              <h1 className="text-white text-3xl flex justify-center font-bold">
+                Send me a message!
+              </h1>
+
               <div>
                 <label
                   htmlFor="name"

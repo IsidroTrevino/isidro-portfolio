@@ -14,6 +14,9 @@ const projectImages = [
   "/AWAQ/Awaq_Guia.png",
   "/AWAQ/Awaq_Instrucciones.png",
   "/AWAQ/Awaq_Login.png",
+  "/AWAQ/Awaq_Select.png",
+  "/AWAQ/Awaq_Juego1.png",
+  "/AWAQ/Awaq_Juego2.png",
 ];
 
 function Awaq() {
@@ -80,24 +83,50 @@ function Awaq() {
               Project Overview
             </h2>
             <p className="text-gray-300 mb-6">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              This project consisted on two separate parts. The first part is a
+              Web Application where collaborators that want to join the
+              organization can see their current progress of training based on
+              the level of the videogame they are, also tracking stats as the
+              percentage of completion, time played, and missing levels. <br />
+              <br />
+              The second part is a Unity videogame where the collaborators can
+              play and learn about the organization's ethic code, security, and
+              technology for developers. This game is divided into three levels,
+              each one with a different theme and set of questions. The game is
+              integrated with the web application to track the progress of the
+              collaborators.
             </p>
 
             <h2 className="text-2xl text-white font-bold mb-4">Key Features</h2>
             <ul className="list-disc list-inside text-gray-300 mb-6 space-y-2">
-              <li>Lorem ipsum dolor sit</li>
-              <li>Consectetur adipiscing elit</li>
-              <li>Sed do eiusmod tempor</li>
-              <li>Ut labore et dolore magna</li>
+              <li>
+                Progress is tracked after each minigame of the game has been
+                completed and is updated on the database.
+              </li>
+              <li>
+                The web application has a especial study section where
+                collaborators can consult their code of ethics, security
+                protocols and other topics to study.
+              </li>
+              <li>
+                Administrators of the organization can track the progress of
+                collaboratos, as well as register new ones or delete them from
+                the database.
+              </li>
             </ul>
 
             <h2 className="text-2xl text-white font-bold mb-4">
               Development Journey
             </h2>
             <p className="text-gray-300 mb-6">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim
-              ad minim veniam, quis nostrud exercitation ullamco laboris.
+              This project was developed by a team of 5 people, including me. We
+              completed the project in a span of 3 sprint cycles, each one
+              lasting 3 weeks. The first sprint was focused on the design of the
+              game and the web application, as well as the database design. The
+              second sprint was focused on the development of the game and the
+              web application, as well as the integration of both. The third
+              sprint was focused on testing and debugging the game and the web
+              application.
             </p>
           </div>
 
@@ -136,7 +165,7 @@ function Awaq() {
                 <h3 className="text-purple-400 font-medium mb-2">Links</h3>
                 <div className="flex flex-col gap-2">
                   <a
-                    href="https://github.com/IsidroTrevino/Awaq"
+                    href="https://github.com/ivanadp-19/PROYECTOAWAQ"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-gray-300 hover:text-purple-400 transition-colors"

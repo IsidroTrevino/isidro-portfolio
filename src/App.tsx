@@ -8,12 +8,14 @@ import WattzOn from "./projects/WattzOn/WattzOn";
 import SmartCovers from "./projects/SmartCovers/SmartCovers";
 import Awaq from "./projects/Awaq/Awaq";
 import Projects from "./Components/Projects";
+import ScrollToTop from "./Components/ScrollToTop";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <div className="min-h-screen w-full overflow-x-hidden bg-fixed bg-black bg-radial-at-bottom from-purple-800 to-black">
         <ParticlesComponent />
         <Routes>
