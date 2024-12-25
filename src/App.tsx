@@ -9,6 +9,7 @@ import SmartCovers from "./projects/SmartCovers/SmartCovers";
 import Awaq from "./projects/Awaq/Awaq";
 import Projects from "./Components/Projects";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="/projects/Awaq" element={<Awaq />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
+        <Analytics />
       </div>
     </BrowserRouter>
   );
