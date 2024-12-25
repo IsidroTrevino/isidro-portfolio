@@ -31,7 +31,7 @@ const projects: ProjectType[] = [
   {
     title: "Awaq",
     description:
-      "Mobile application developed using Swift and SwiftUI for tracking energy consumption in Houses, Buildings and Industries to combat climate change and reduce energy costs.",
+      "Web Application developed using ASP.NET, and a VideoGame developed using Unity for training collaborators of the organization regarding their safety policies, ethic code, and technology for developers.",
     images: [
       "/AWAQ/Awaq_Login.png",
       "/AWAQ/Awaq_Dashboard.png",
@@ -45,7 +45,7 @@ const projects: ProjectType[] = [
   {
     title: "Smart Covers",
     description:
-      "Mobile application developed using Swift and SwiftUI for tracking energy consumption in Houses, Buildings and Industries to combat climate change and reduce energy costs.",
+      "Web application and Arduino projects for monitoring and automating the control of blind in an intelligent home, office or other spaces.",
     images: [
       "/SmartCovers/Smartcovers_Dashboard.png",
       "/SmartCovers/Smartcovers_Home.png",
