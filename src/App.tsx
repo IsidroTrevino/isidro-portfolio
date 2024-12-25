@@ -3,6 +3,7 @@ import Hero from "./Components/Hero";
 import ParticlesComponent from "./Components/ParticlesComponent";
 import Experience from "./Components/Experience";
 import Skills from "./Components/Skills";
+import Contact from "./Components/Contact";
 import WattzOn from "./projects/WattzOn/WattzOn";
 import SmartCovers from "./projects/SmartCovers/SmartCovers";
 import Awaq from "./projects/Awaq/Awaq";
@@ -24,6 +25,7 @@ function App() {
                 <Experience />
                 <Projects />
                 <Skills />
+                <Contact />
               </div>
             }
           />
