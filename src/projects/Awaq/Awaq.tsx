@@ -4,7 +4,6 @@ import {
   FiChevronLeft,
   FiChevronRight,
   FiGithub,
-  FiExternalLink,
   FiArrowLeft,
 } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
