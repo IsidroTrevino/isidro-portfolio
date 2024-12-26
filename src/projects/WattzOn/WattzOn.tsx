@@ -192,7 +192,7 @@ function WattzOn() {
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-gray-300 hover:text-purple-400 transition-colors"
                   >
-                    <FiGithub /> Code (Application)
+                    <FiGithub /> GitHub (Application)
                   </a>
                   <a
                     href="https://github.com/IsidroTrevino/WattzOnApi"
@@ -200,7 +200,7 @@ function WattzOn() {
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-gray-300 hover:text-purple-400 transition-colors"
                   >
-                    <FiGithub /> Code (API)
+                    <FiGithub /> GitHub (API)
                   </a>
                 </div>
               </div>
