@@ -38,7 +38,7 @@ const projects: ProjectType[] = [
       "/AWAQ/Awaq_Guia.png",
       "/AWAQ/Awaq_Instrucciones.png",
     ],
-    technologies: ["ASP.NET", "C#", "MySQL", "Bootstrap", "Aiven", "Unity"],
+    technologies: ["ASP.NET", "C#", "MySQL", "Bootstrap", "Aiven", "Unity", "Looker Studio"],
     githubUrl: "https://github.com/IsidroTrevino/WattzOn",
     projectUrl: "/projects/Awaq",
   },

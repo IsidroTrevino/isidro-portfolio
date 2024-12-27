@@ -113,6 +113,11 @@ function Awaq() {
                 collaboratos, as well as register new ones or delete them from
                 the database.
               </li>
+              <li>
+                Using Looker Studio, the statistics of the collaborators can be
+                visualized in a dashboard, showing the progress of each one of
+                them, either as an Admin or as a collaborator.
+              </li>
             </ul>
 
             <h2 className="text-2xl text-white font-bold mb-4">
@@ -157,6 +162,9 @@ function Awaq() {
                   </span>
                   <span className="px-3 py-1 bg-purple-500/20 rounded-full text-purple-300 text-sm">
                     Aiven
+                  </span>
+                  <span className="px-3 py-1 bg-purple-500/20 rounded-full text-purple-300 text-sm">
+                    Looker Studio
                   </span>
                 </div>
               </div>
