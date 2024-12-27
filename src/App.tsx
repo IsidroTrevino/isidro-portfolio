@@ -11,6 +11,7 @@ import Projects from "./Components/Projects";
 import ScrollToTop from "./Components/ScrollToTop";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
         <Analytics />
+        <SpeedInsights/>
       </div>
     </BrowserRouter>
   );
